@@ -91,7 +91,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         flex: 1
     },
-    image: {},
+    image: {
+        margin:3
+    },
     text: {
         marginTop: 4,
         fontSize: 11,
