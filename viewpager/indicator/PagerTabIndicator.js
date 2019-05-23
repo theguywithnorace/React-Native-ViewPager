@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
         flex: 1
     },
     image: {
-        margin:3
+        marginBottom:3
     },
     text: {
         marginTop: 4,
