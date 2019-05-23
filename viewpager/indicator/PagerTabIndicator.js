@@ -62,11 +62,7 @@ export default class PagerTabIndicator extends Component {
                         style={[styles.image, isSelected ? selectedIconStyle : iconStyle]}
                         source={isSelected ? tab.selectedIconSource : tab.iconSource}
                     />
-                    <Text
-                        style={[isSelected ? styles.textSelected : styles.text, isSelected ? selectedTextStyle : textStyle]}
-                    >
-                        {tab.text}
-                    </Text>
+                  
                 </TouchableOpacity>
             )
         })
